@@ -9,10 +9,10 @@
     <title>Youtube</title>
 </head>
 
-<body class="bg-gray-100">
-    <header class="bg-white h-[5rem] divide-y">
+<body class="bg-gray-50 antialiased">
+    <header class="bg-white h-[6.5rem] divide-y ml-[75px] border-b fixed inset-x-0">
         <div class="navbar flex justify-between items-center mx-4">
-            <div class="logo">
+            <div class="logo -ml-3">
                 <img src="YouTube-Logo.wine.svg" alt="" class="w-[136px] h-12">
             </div>
             <div class="searchbar flex items-center justify-center flex-grow">
@@ -32,35 +32,217 @@
                         class="h-8 w-8 rounded-full "></button>
             </div>
         </div>
-        <div class="recommendations flex items-center  px-4 py-3 space-x-3">
+        <div class="recommendations flex items-center  px-4 py-3 space-x-3 select-none">
             <span class=" border border-gray-800 rounded-full text-sm bg-gray-500 text-white px-2 py-1 shadow-inner">All
                 Recommendations</span>
             <span
-                class=" border border-gray-300 rounded-full text-sm bg-gray-200 text-gray-800 px-2 py-1 shadow-inset">Tailwind
+                class=" border border-gray-300 hover:bg-gray-300  rounded-full text-sm bg-gray-200 text-gray-800 px-2 py-1 shadow-inner">Tailwind
                 CSS</span>
             <span
-                class=" border  border-gray-300 rounded-full text-sm bg-gray-200 text-gray-800 px-2 py-1 shadow-inset">Sports</span>
+                class=" border  border-gray-300 hover:bg-gray-300  rounded-full text-sm bg-gray-200 text-gray-800 px-2 py-1 shadow-inner">Sports</span>
             <span
-                class=" border border-gray-300 rounded-full text-sm bg-gray-200 text-gray-800 px-2 py-1 shadow-inset">Games</span>
+                class=" border border-gray-300  hover:bg-gray-300 rounded-full text-sm bg-gray-200 text-gray-800 px-2 py-1 shadow-inner">Games</span>
             <span
-                class=" border border-gray-300 rounded-full text-sm bg-gray-200 text-gray-800 px-2 py-1 shadow-inset">Bigboss</span>
+                class=" border border-gray-300 hover:bg-gray-300  rounded-full text-sm bg-gray-200 text-gray-800 px-2 py-1 shadow-inner">Bigboss</span>
             <span
-                class=" border border-gray-300 rounded-full text-sm bg-gray-200 text-gray-800 px-2 py-1 shadow-inset">Podcasts</span>
+                class=" border border-gray-300 hover:bg-gray-300  rounded-full text-sm bg-gray-200 text-gray-800 px-2 py-1 shadow-inner">Podcasts</span>
             <span
-                class=" border border-gray-300 rounded-full text-sm bg-gray-200 text-gray-800 px-2 py-1 shadow-inset">TMKOC</span>
+                class=" border border-gray-300  hover:bg-gray-300 rounded-full text-sm bg-gray-200 text-gray-800 px-2 py-1 shadow-inner">TMKOC</span>
             <span
-                class=" border border-gray-300 rounded-full text-sm bg-gray-200 text-gray-800 px-2 py-1 shadow-inset">Memes</span>
+                class=" border border-gray-300 hover:bg-gray-300  rounded-full text-sm bg-gray-200 text-gray-800 px-2 py-1 shadow-inner">Memes</span>
             <span
-                class=" border border-gray-300 rounded-full text-sm bg-gray-200 text-gray-800 px-2 py-1 shadow-inset">code
+                class=" border border-gray-300 hover:bg-gray-300  rounded-full text-sm bg-gray-200 text-gray-800 px-2 py-1 shadow-inner">Code
                 With Harry</span>
             <span
-                class=" border border-gray-300 rounded-full text-sm bg-gray-200 text-gray-800 px-2 py-1 shadow-inset">HTMl
+                class=" border border-gray-300 hover:bg-gray-300  rounded-full text-sm bg-gray-200 text-gray-800 px-2 py-1 shadow-inner">HTMl
                 CSS</span>
 
 
         </div>
 
     </header>
+    <aside class="sidebar fixed top-0 w-[75px] h-screen bg-white flex items-center flex-col">
+        <button class="mt-3"><img src="menu.png" alt="" class="w-[24px] h-[24px]"></button>
+        <div class=" mt-6 w-full text-gray-700">
+            <button class=" flex flex-col items-center py-4 justify-center w-full hover:bg-gray-200 text-red-600"><img
+                    src="home.png" alt="">
+                <span class="text-xs ">Home</span>
+            </button>
+            <button class=" flex flex-col items-center py-4 justify-center w-full hover:bg-gray-200"><img
+                    src="trending.png" alt="">
+                <span class="text-xs">Trending</span>
+            </button> <button class=" flex flex-col items-center py-4 justify-center w-full hover:bg-gray-200"><img
+                    src="playlist.png" alt="">
+                <span class="text-xs">Subscriptions</span>
+            </button> <button class=" flex flex-col items-center py-4 justify-center w-full hover:bg-gray-200"><img
+                    src="video-library.svg" alt="">
+                <span class="text-xs">Library</span>
+            </button>
+
+        </div>
+    </aside>
+    <main class="ml-24 pt-32">
+        <div class=" pb-12">
+            <h3 class="text-xl font-bold ">Recommended</h3>
+            <div class=" videos mt-4 grid grid-cols-4 gap-y-10 gap-x-4">
+
+                <div class="w-[274.233px]">
+                    <div class="h-[154.25px] bg-gray-400 w-full">
+                        <img src="romeo-a-JrZvYuBYzCU-unsplash.jpg" class="w-[274.233px] h-[154.25px]" alt="">
+                    </div>
+                    <div class="flex mt-2">
+                        <!-- Use flex-shrink-0 to fix any image size -->
+                        <div class="h-[36px] w-[36px]  rounded-full flex-shrink-0">
+                            <img src="mika-baumeister-HUyICL8qbEE-unsplash.jpg" class="h-[36px] w-[36px] rounded-full" alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="text-sm font-bold">Welcome to MarioWorld</div>
+                            <div class="text-xs text-gray-700">
+                                <p>MarioWorld </p>
+                                <p>97k views &middot; 8 hours ago</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="w-[274.233px]">
+                    <div class="h-[154.25px] bg-gray-400 w-full">
+                        <img src="romeo-a-JrZvYuBYzCU-unsplash.jpg" class="w-[274.233px] h-[154.25px]" alt="">
+                    </div>
+                    <div class="flex mt-2">
+                        <!-- Use flex-shrink-0 to fix any image size -->
+                        <div class="h-[36px] w-[36px] rounded-full flex-shrink-0">
+                            <img src="mika-baumeister-HUyICL8qbEE-unsplash.jpg" class="h-[36px] w-[36px] rounded-full" alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="text-sm font-bold">Welcome to MarioWorld</div>
+                            <div class="text-xs text-gray-700">
+                                <p>MarioWorld </p>
+                                <p>97k views &middot; 8 hours ago</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="w-[274.233px]">
+                    <div class="h-[154.25px] bg-gray-400 w-full">
+                        <img src="romeo-a-JrZvYuBYzCU-unsplash.jpg" class="w-[274.233px] h-[154.25px]" alt="">
+                    </div>
+                    <div class="flex mt-2">
+                        <!-- Use flex-shrink-0 to fix any image size -->
+                        <div class="h-[36px] w-[36px]  rounded-full flex-shrink-0">
+                            <img src="mika-baumeister-HUyICL8qbEE-unsplash.jpg" class="h-[36px] w-[36px] rounded-full" alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="text-sm font-bold">Welcome to MarioWorld</div>
+                            <div class="text-xs text-gray-700">
+                                <p>MarioWorld </p>
+                                <p>97k views &middot; 8 hours ago</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="w-[274.233px]">
+                    <div class="h-[154.25px] bg-gray-400 w-full">
+                        <img src="romeo-a-JrZvYuBYzCU-unsplash.jpg" class="w-[274.233px] h-[154.25px]" alt="">
+                    </div>
+                    <div class="flex mt-2">
+                        <!-- Use flex-shrink-0 to fix any image size -->
+                        <div class="h-[36px] w-[36px]  rounded-full flex-shrink-0">
+                            <img src="mika-baumeister-HUyICL8qbEE-unsplash.jpg" class="h-[36px] w-[36px] rounded-full" alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="text-sm font-bold">Welcome to MarioWorld</div>
+                            <div class="text-xs text-gray-700">
+                                <p>MarioWorld </p>
+                                <p>97k views &middot; 8 hours ago</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="w-[274.233px]">
+                    <div class="h-[154.25px] bg-gray-400 w-full">
+                        <img src="romeo-a-JrZvYuBYzCU-unsplash.jpg" class="w-[274.233px] h-[154.25px]" alt="">
+                    </div>
+                    <div class="flex mt-2">
+                        <!-- Use flex-shrink-0 to fix any image size -->
+                        <div class="h-[36px] w-[36px]  rounded-full flex-shrink-0">
+                            <img src="mika-baumeister-HUyICL8qbEE-unsplash.jpg" class="h-[36px] w-[36px] rounded-full" alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="text-sm font-bold">Welcome to MarioWorld</div>
+                            <div class="text-xs text-gray-700">
+                                <p>MarioWorld </p>
+                                <p>97k views &middot; 8 hours ago</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="w-[274.233px]">
+                    <div class="h-[154.25px] bg-gray-400 w-full">
+                        <img src="romeo-a-JrZvYuBYzCU-unsplash.jpg" class="w-[274.233px] h-[154.25px]" alt="">
+                    </div>
+                    <div class="flex mt-2">
+                        <!-- Use flex-shrink-0 to fix any image size -->
+                        <div class="h-[36px] w-[36px]  rounded-full flex-shrink-0">
+                            <img src="mika-baumeister-HUyICL8qbEE-unsplash.jpg" class="h-[36px] w-[36px] rounded-full" alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="text-sm font-bold">Welcome to MarioWorld</div>
+                            <div class="text-xs text-gray-700">
+                                <p>MarioWorld </p>
+                                <p>97k views &middot; 8 hours ago</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="w-[274.233px]">
+                    <div class="h-[154.25px] bg-gray-400 w-full">
+                        <img src="romeo-a-JrZvYuBYzCU-unsplash.jpg" class="w-[274.233px] h-[154.25px]" alt="">
+                    </div>
+                    <div class="flex mt-2">
+                        <!-- Use flex-shrink-0 to fix any image size -->
+                        <div class="h-[36px] w-[36px]  rounded-full flex-shrink-0">
+                            <img src="mika-baumeister-HUyICL8qbEE-unsplash.jpg" class="h-[36px] w-[36px] rounded-full" alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="text-sm font-bold">Welcome to MarioWorld</div>
+                            <div class="text-xs text-gray-700">
+                                <p>MarioWorld </p>
+                                <p>97k views &middot; 8 hours ago</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="w-[274.233px]">
+                    <div class="h-[154.25px] bg-gray-400 w-full">
+                        <img src="romeo-a-JrZvYuBYzCU-unsplash.jpg" class="w-[274.233px] h-[154.25px]" alt="">
+                    </div>
+                    <div class="flex mt-2">
+                        <!-- Use flex-shrink-0 to fix any image size -->
+                        <div class="h-[36px] w-[36px] rounded-full flex-shrink-0">
+                            <img src="mika-baumeister-HUyICL8qbEE-unsplash.jpg" class="h-[36px] w-[36px] rounded-full" alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="text-sm font-bold">Welcome to MarioWorld</div>
+                            <div class="text-xs text-gray-700">
+                                <p>MarioWorld </p>
+                                <p>97k views &middot; 8 hours ago</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        
+    </main>
 </body>
 
 </html>
